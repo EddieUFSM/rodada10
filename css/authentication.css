@@ -1,0 +1,278 @@
+@font-face {
+  font-family: FontAwesome;
+  src: url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+}
+/* login area**/
+
+.login_area{
+    width: 100%;
+    margin: 0px auto;
+  }
+  
+  
+  .login_area .inner_login_area {
+    width: 100%;
+    height: 105vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(0, 59, 11);
+  }
+  
+  .login_area .inner_login_area  .wrapper_login_area{
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 45px;
+  }
+  
+  .login_area .inner_login_area  .wrapper_login_area form span{
+    display: block;
+    font-size: 30px;
+    color: #00A81F;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900; 
+    padding-bottom: 40px;
+  }
+  
+  .login_area .inner_login_area  .wrapper_login_area form .wrap-input-text{
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 7px;
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+  }
+  
+  input{
+    outline: none;
+    border: none;
+  }
+  
+  .login_area .inner_login_area  .wrapper_login_area form .wrap-input-text input{
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    padding: 0 7px 0 43px;
+  }
+  
+  .icon::before {
+    display: none;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .focus-input100 {
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .focus-input100::after {
+    align-items: center;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(173, 173, 173);
+    content: attr(data-symbol);
+    display: flex;
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 100;
+    height: 59px;
+    justify-content: center;
+    left: 0px;
+    line-height: 33px;
+    padding-left: 13px;
+    padding-top: 3px;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  .focus-input100::before {
+    align-items: center;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(173, 173, 173);
+    content: attr(data-symbol);
+    display: flex;
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: 100;
+    height: 59px;
+    justify-content: center;
+    left: 0px;
+    line-height: 33px;
+    padding-left: 13px;
+    padding-top: 3px;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  
+  .input100:focus + .focus-input100::before {
+    width: 100%;
+  }
+  
+  .has-val.input100 + .focus-input100::before {
+    width: 100%;
+  }
+  
+  .input100:focus + .focus-input100::after {
+    color: #a64bf4;
+  }
+  
+  .has-val.input100 + .focus-input100::after {
+    color: #a64bf4;
+  }
+  
+  .container_forgot_link{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 8px;
+    text-align: right;
+  }
+  
+  .container_forgot_link a {
+    color: rgb(33, 37, 41);  
+  }
+  
+  .container_login_btn{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .container_login_btn .wrapper_login_btn{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container_login_btn .wrapper_login_btn .login_btn{
+    border-radius: 2px;
+    background-color: #00A81F;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .wrapper_social_media_login{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: flex;
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .media_circle{
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    height: 50px;
+    justify-content: center;
+    line-height: 42.5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    touch-action: manipulation;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 50px;
+  }
+  
+  .center_text {
+    text-align: center;
+  }
+  
+  #link_signup{
+    color: #00A81F;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  #link_signup a{
+    color: #00A81F;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  [type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none;
+  }
+
+  .wrapper_login_area{
+    position: absolute;
+  }
+
+  .login_area img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100px;
+  }
