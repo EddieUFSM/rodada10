@@ -25,12 +25,12 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 <!--================================ load-page ===========================================-->
-<div id="overlayer"></div>
-<div class="loader">
-  <div class="spinner-border text-primary" role="status">
-    <span class="sr-only">Loading...</span>
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
   </div>
-</div>
 
 <!--================================ load-page end ======================================-->
 <!--================================ .site-wrap =========================================-->
@@ -47,25 +47,26 @@
   <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-5 col-md-3 col-xl-3  d-block">
+        <div class="col-5 col-md-2 col-xl-3 menu-pt1 d-block">
           <h1 class="mb-0 site-logo">
             <a href="index.html" class="text-black h2 mb-0"><img class="img_logo_nav i" src="img/logoW.svg" alt=""></a>
             <a href="" class="text-black h2 mb-0"><img class="i" src="img/club_icons/SP - SVG/Sport Club Corinthians Paulista4.svg" alt=""></a></h1>
         </div>
-        <div class="col-12 col-md-9 col-xl-9 main-menu">
+        <div class="col-12 col-md-10 col-xl-9 menu-pt2 main-menu">
           <nav class="site-navigation position-relative text-right" role="navigation">
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
               <li><a href="#home-section" class="nav-link active">Vitrine</a></li>
-              <li><a href="#features-section" class="nav-link">Sobre</a></li>
-              <li><a href="#" class="nav-link">o que estão falando</a></li>
-              <li><a href="#" class="nav-link">Estatisticas</a></li>
-              <li><a href="#" class="nav-link">FAQ</a></li>
+              <li><a href="#sobre" class="nav-link">Sobre</a></li>
+              <li><a href="#testimonials-section" class="nav-link">o que estão falando</a></li>
+              <li><a href="#section-counter" class="nav-link">Estatisticas</a></li>
+              <li><a href="#" class="nav-link">Afiliados</a></li>
+              <li><a href="#faq-section" class="nav-link">FAQ</a></li>
               <li>
-                <a href="#" class="btn btn-primary mr-2 mb-2">login</a></li>
+                <a href="./login.html" class="btn btn-primary mr-2 mb-2">login</a></li>
             </ul>
           </nav>
         </div>
-        <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+        <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
       </div>
     </div>
   </header>
@@ -77,10 +78,53 @@
         <div class="col-md-12 banner-cover" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
           <div class="row " data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-6 mr-auto p-3 text-center">
-              <h1>Lorem ipsum dolor sit</h1>
-              <p class="mb-5">"Palpitar é uma arte, Acertar a melhor parte".</p>
+              <h1><span>Rodada 10:</span> a maior plataforma de torneios cartola e bolões do Brasil</h1>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
+              <div class="divTable">
+                <div class="divTableBody">
+                  <div class="divTableRow">
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p> 
+                    </div>
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p>
+                    </div>
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p>
+                    </div>
+                  </div>
+                  <div class="divTableRow">
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p> 
+                    </div>
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p>
+                    </div>
+                    <div class="divTableCell">
+                      <img src="img/arte tabela.jpg" alt="">
+                      <p class="valor" >Valor <span>R$ 200,00</span></p>
+                      <p>premiação <span>R$ 2.000,00</span></p>  
+                      <p>Inscreva-se</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -90,157 +134,223 @@
 <!--============================== Página principal fim =================================-->
 
 <!--=================================== Area Sobre ======================================-->
-<div class="site-section bg-light" id="about-section">
-  <div class="container">
-    <div class="row mb-2">
-      <div class="col-12 text-center">
-        <h2 class="section-title mb-3">Sobre Nós</h2>
+  <div class="site-section bg-light pt-6" id="sobre">
+    <div class="container">
+      <div class="row mb-2">
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-3">Sobre Nós</h2>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <iframe class="about-video" src="https://www.youtube.com/embed/I_6ZcOo6pnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="row mb-5">
-      <iframe class="about-video" src="https://www.youtube.com/embed/I_6ZcOo6pnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
   </div>
-</div>
 <!--=================================== Area Sobre ======================================-->
 
 
 <!--=================================== testemonial Sobre ======================================-->
-<div class="site-section testimonial-wrap bg-light" id="testimonials-section">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12 text-center">
-        <h2 class="section-title mb-3">O Que dizem sobre?</h2>
+  <div class="site-section testimonial-wrap bg-light pt-6" id="testimonials-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-3">O Que dizem sobre?</h2>
+        </div>
       </div>
     </div>
+    <div class="slide-one-item home-slider owl-carousel">
+        <div>
+          <div class="testimonial row">
+            
+            <div class="col-md-4">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Amanda</strong></p>
+            </div>
+            <div class="col-md-4">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Amanda</strong></p>
+            </div>
+            <div class="col-md-4">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Amanda</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
-  <div class="slide-one-item home-slider owl-carousel">
-      <div>
-        <div class="testimonial row">
-          
-          <div class="col-md-4">
-            <figure class="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-            </figure>
-            <blockquote class="mb-3">
-              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            </blockquote>
-            <p class="text-black"><strong>Amanda</strong></p>
+<!--=================================== testemonial Sobre ======================================-->
+
+<!--=================================== estatisticas ======================================-->
+  <section class="ftco-section ftco-counter pt-6 pb-6" id="section-counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="text-center">
+            <img src="img/icons/troph@4x.png" alt="">
+            <div class="text">
+              <span>+ de R$</span>
+              <strong class="number" data-number="1000">0</strong>
+              <span>em prêmios</span>
+            </div>
           </div>
-          <div class="col-md-4">
-            <figure class="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-            </figure>
-            <blockquote class="mb-3">
-              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            </blockquote>
-            <p class="text-black"><strong>Amanda</strong></p>
+        </div>
+        <div class="col-md-3">
+          <div class="block-18 text-center">
+            
+            <img src="img/icons/ball@4x.png" alt="">
+            <div class="text">
+              <span>+ de</span>
+              <strong class="number" data-number="100">0</strong>
+              <span>torneios realizados</span>
+            </div>
           </div>
-          <div class="col-md-4">
-            <figure class="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="img/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
-            </figure>
-            <blockquote class="mb-3">
-              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-            </blockquote>
-            <p class="text-black"><strong>Amanda</strong></p>
+        </div>
+        <div class="col-md-3">
+          <div class="block-18 text-center">
+            <img src="img/icons/group@2x.png" alt="">
+            <div class="text">
+              <span>+ de </span>
+              <strong class="number" data-number="10000">0</strong>
+              <span>inscritos</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="block-18 text-center">
+            <img src="img/icons/time@4x.png" alt="">
+            <div class="text">
+              <span>+ de </span>
+              <strong class="number" data-number="9000">0</strong>
+              <span>anos de experiência</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+<!--=================================== estatisticas ======================================-->
+
+<!--=================================== afiliados Sobre ======================================-->
+<div class="site-section bg-darkgreen pt-6" id="testimonials-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-right">
+        <h2>Programa de afiliados:</h2>
+        <p>Torne-se um afiliado e ganhe comissão de suas indicações!</p>    
+      </div>
+      <div class="col-md-6">
+        <a class="btn btn-primary mr-2 mb-2" href="https://api.whatsapp.com/send?phone=5561981772950&text=quero%20%ser%20afiloado">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
 </div>
 <!--=================================== testemonial Sobre ======================================-->
 
+
+
 <!--======================== FAQ =========================-->
-<section class="faq-background">
-  <div class="container">
-    <div class="row justify-content-center pt-5">
-      <div class="col-md-7 text-center">
-        <h2 class="mb-1">FAQ</h2>
-        <p>Leia aqui as perguntas mais frequentes em respostas objetivas</p>
+  <section class="faq-background faq pt-6" id="faq-section">
+    <div class="container">
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-7 text-center">
+          <h2 class="mb-1">FAQ</h2>
+          <p>Leia aqui as perguntas mais frequentes em respostas objetivas</p>
+        </div>
       </div>
-    </div>
-    <div class="row pb-5">
-      <div class="col-md-12">
-        <div id="accordion">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone">Como sei que meu site foi invadido? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+      <div class="row pb-5">
+        <div class="col-md-12">
+          <div id="accordion">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone">Como sei que meu site foi invadido? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menuone" class="collapse show">
+                    <div class="card-body">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat odit veniam ipsum itaque. Architecto natus reiciendis, repudiandae soluta illo deserunt, tenetur saepe veritatis maxime praesentium itaque labore neque nesciunt?</p>
+                    </div>
+                  </div>
                 </div>
-                <div id="menuone" class="collapse show">
-                  <div class="card-body">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat odit veniam ipsum itaque. Architecto natus reiciendis, repudiandae soluta illo deserunt, tenetur saepe veritatis maxime praesentium itaque labore neque nesciunt?</p>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo">Em quanto tempo tenho meu site novamente? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menutwo" class="collapse">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eligendi ipsam ut incidunt, quidem at officiis sint et molestiae nihil eaque deleniti officia provident enim aperiam. Magni eveniet magnam consequatur!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menuthree" aria-expanded="false" aria-controls="menuthree">Em quanto tempo tenho meu site novamente? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menuthree" class="collapse">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eligendi ipsam ut incidunt, quidem at officiis sint et molestiae nihil eaque deleniti officia provident enim aperiam. Magni eveniet magnam consequatur!</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo">Em quanto tempo tenho meu site novamente? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menufour" aria-expanded="false" aria-controls="menufour">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menufour" class="collapse">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
+                    </div>
+                  </div>
                 </div>
-                <div id="menutwo" class="collapse">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eligendi ipsam ut incidunt, quidem at officiis sint et molestiae nihil eaque deleniti officia provident enim aperiam. Magni eveniet magnam consequatur!</p>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menufive" aria-expanded="false" aria-controls="menufive">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menufive" class="collapse">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse"  href="#menusix" aria-expanded="false" aria-controls="menusix">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
+                  </div>
+                  <div id="menusix" class="collapse">
+                    <div class="card-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menuthree" aria-expanded="false" aria-controls="menuthree">Em quanto tempo tenho meu site novamente? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
-                </div>
-                <div id="menuthree" class="collapse">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eligendi ipsam ut incidunt, quidem at officiis sint et molestiae nihil eaque deleniti officia provident enim aperiam. Magni eveniet magnam consequatur!</p>
-                  </div>
-                </div>
               </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menufour" aria-expanded="false" aria-controls="menufour">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
-                </div>
-                <div id="menufour" class="collapse">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menufive" aria-expanded="false" aria-controls="menufive">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
-                </div>
-                <div id="menufive" class="collapse">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header">
-                  <a class="card-link" data-toggle="collapse"  href="#menusix" aria-expanded="false" aria-controls="menusix">Como funciona o serviço? <span class="collapsed"><i class="ti-angle-down"></i></span><span class="expanded"><i class="ti-angle-up"></i></span></a>
-                </div>
-                <div id="menusix" class="collapse">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae provident iusto labore doloribus repellendus error, nam dolor assumenda. Nam blanditiis delectus rerum consequatur itaque minima minus ipsum veritatis corrupti.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             </div>
           </div>
         </div>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 <!--====================== FAQ END =======================-->
-
 
 <!--==================================== Rodapé =========================================-->
   <div class="footer py-5">
@@ -276,8 +386,8 @@
       </div>
     </div>
   </div>
-</div> 
 <!--=============================== Rodapé fim       ====================================-->
+</div> 
 <!--================================ .site-wrap =========================================-->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery-ui.js"></script>

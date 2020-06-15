@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1 ); }
 
 .site-blocks-cover {
-  background-image: url(../img/banner2.jpg);
+  background-image: url(../img/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,10 +295,15 @@ h1, h2, h3, h4, h5,
     min-height: 400px;
     height: calc(20vh); }
   .site-blocks-cover h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-style: italic;
+    text-transform: uppercase;
     color: #fff;
     font-weight: 900; }
+    .site-blocks-cover h1 span{
+      font-style: italic;
+      color: #00A81F;
+    }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 2rem; } }
@@ -692,6 +697,18 @@ p.round-time{
   }
   .card .card-body p{
   color: rgb(0, 59, 11);
+}.faq h2{
+  font-weight: 900
+  ;
+}
+
+.text{
+  color: rgb(0, 59, 11);
+}
+
+.ftco-section img {
+  height: 60px;
+  width: auto;
 }
 
 /*PRELOADING------------ */
@@ -714,3 +731,72 @@ p.round-time{
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+  .pt-6{
+    padding-top: 6rem!important;
+  }
+
+  .pb-6{
+    padding-bottom: 6rem!important;
+  }
+
+  /* DivTable.com */
+.divTable{
+	display: table;
+  width: 100%;
+  margin-top: 10px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid transparent;
+	display: table-cell;
+	padding: 3px 10px;
+}
+  .divTableCell p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .divTableCell span{
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .divTableCell p.valor{
+    font-size: 12px;
+    margin-top: -2px;
+  }
+  .divTableCell img {
+    height: 80px;
+  }
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.background-table{
+  background-image: url(../img/arte\ tabela.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-darkgreen{
+background-color: #003b0b
+}
