@@ -4,6 +4,7 @@
  	once: false
  });
 
+ 
 jQuery(document).ready(function($) {
 
 	"use strict";
@@ -12,20 +13,6 @@ jQuery(document).ready(function($) {
 	$(".loader").delay(1000).fadeOut("slow");
 	$("#overlayer").delay(1000).fadeOut("slow");	
 
-	var siteMenuAjust = function(){
-		if ( $(window).width() < 769) {  
-			$('.menu-pt1').removeClass('col-md-2');
-			$('.menu-pt2').removeClass('col-md-10');
-			$('.menu-pt1').addClass('col-md-3');  
-			$('.menu-pt2').addClass('col-md-9');  
-		} else {
-			$('.menu-pt1').removeClass('col-md-3');
-			$('.menu-pt2').removeClass('col-md-9');
-			$('.menu-pt1').addClass('col-md-2');
-			$('.menu-pt2').addClass('col-md-10'); 
-		} 
-	};
-	siteMenuAjust();
 
 
 	var siteMenuClone = function() {
