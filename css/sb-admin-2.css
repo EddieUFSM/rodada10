@@ -11293,6 +11293,27 @@ body.sidebar-toggled footer.sticky-footer {
 .form-group .switch-notice{
   text-align: center;
 }
+
 .button-userForm {
   margin-top: 20px;
+}
+
+.table-cover button.btn.btn-primary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tournament td{
+  margin: auto;
+}
+
+.tournament td i.tournament-link{
+  text-align: center;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.tournament-texts{
+  width: 300px;
+  margin-top: 12px;
 }

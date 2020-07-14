@@ -214,56 +214,44 @@
         </nav>
         <!-- End of Topbar -->
 
-        <!-- Tabela -->
-         <!-- Begin Page Content -->
-         <div class="container-fluid">
-          <div class="card" style="margin-bottom: 30px;">
-            <div class="card-body">
-              <form>
-                
-                
-               
-                <div class="form-group">
-                  <label for="basic-url" class="notice"><span>Notificações</span> </label>
-                    <div class="row switch-notice">
-                      <div class="col-3">
-                        <div class="custom-control custom-switch">
-                          <input type="checkbox" class="custom-control-input" id="init">
-                          <label class="custom-control-label" for="init">Início da partida</label>
-                        </div>
-                      </div>
-                      <div class="col-3">
-                        <div class="custom-control custom-switch">
-                          <input type="checkbox" class="custom-control-input" id="end">
-                          <label class="custom-control-label" for="end">Fim da Partida</label>
-                        </div>
-                      </div>
 
-                      <div class="col-3">
-                        <div class="custom-control custom-switch">
-                          <input type="checkbox" class="custom-control-input" id="gol">
-                          <label class="custom-control-label" for="gol">Gol</label>
-                        </div>
-                      </div>
-
-                      <div class="col-3">
-                        <div class="custom-control custom-switch">
-                          <input type="checkbox" class="custom-control-input" id="cards">
-                          <label class="custom-control-label" for="cards">Cartões</label>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-12 text-center">
-                      <button type="submit" class="btn btn-primary button-userForm">Salvar</button></div>
-                    </div>
-                    
-                    
-              </form>
-
-            </div>
-            
-          </div>
+    <!-- Tabela -->
+    <!-- Begin Page Content -->
+    <div class="container-fluid tournament">
+        <div class="card" style="margin-bottom: 30px;">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Torneio</th>
+                    <th scope="col">Inscrição</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tournament-texts">Nome</td>
+                    <td class="tournament-texts">Inscrição</td>
+                    <td>
+                        <button class="btn btn-success"><i class="fas fa-dollar-sign"></i> Enviar comprovante</button>
+                        
+                    </td>
+                    <td>
+                      <a href="">
+                        <i class="fas fa-info tournament-link" style="color: gold;"></i>
+                    </a>
+                        <a href="">
+                          <i class="fas fa-trash tournament-link" style="color: red;"></i>
+                        </a>
+                        
+                    </td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+        
+        
+        </div>
+    </div>
 
          
          
