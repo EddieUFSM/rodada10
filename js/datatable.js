@@ -3461,19 +3461,22 @@ $jscomp.polyfill("Array.prototype.find", function(f) {
                 sSortDescending: ": activate to sort column descending"
             },
            
-            sEmptyTable: "No data available in table",
-            sInfo: "Mostrando _START_ até _END_ de _TOTAL_ times",
-            sInfoFiltered: "(filtered from _MAX_ total entries)",
+           
+            sEmptyTable: "Nenhum registro encontrado",
+            sInfo: "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+            sInfoEmpty: "Mostrando 0 até 0 de 0 registros",
+            sInfoFiltered: "(Filtrados de _MAX_ registros)",
             sInfoPostFix: "",
-            sDecimal: "",
+            sInfoThousands: ".",
             sThousands: ",",
             sLengthMenu: "Mostrando _MENU_ Times",
-            sLoadingRecords: "Loading...",
+            sLoadingRecords: "Carregando...",
             sProcessing: "Processando...",
             sSearch: "Buscando:",
             sSearchPlaceholder: "",
             sUrl: "",
-            sZeroRecords: "No matching records found"
+            sZeroRecords: "Nenhum registro encontrado",
+            sSearch: "Pesquisar",
         },
         oSearch: f.extend({}, q.models.oSearch),
         sAjaxDataProp: "data",

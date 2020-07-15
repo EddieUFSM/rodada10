@@ -11352,3 +11352,15 @@ bottom: .5em;
 .dataTables_length{
   display: none;
 }
+
+.dataTables_filter{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.dataTables_filter label input{
+  margin-left: 20px;
+}
+
+.sorting{
+  cursor: default;
+}
