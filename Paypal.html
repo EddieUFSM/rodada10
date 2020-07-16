@@ -24,6 +24,7 @@
 
   <!-- Page Wrapper -->
   <div id="wrapper">
+
     <!-- Sidebar -->
     <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #033417;">
 
@@ -102,6 +103,8 @@
       </div>
 
     </ul>
+    <!-- End of Sidebar -->
+
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 
@@ -228,69 +231,36 @@
         <!-- End of Topbar -->
 
 
-    <!-- Tabela -->
-    <!-- Begin Page Content -->
-    <div class="container-fluid time">
-      <div class="row search-bar">
-        <!-- Page Heading -->
-        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-                <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                    <i class="fas fa-search fa-sm"></i>
-                </button>
-                </div>
-            </div>
+      <!-- Start Billing Details Form -->
+      <div class="container">
+        <form action="#" class="billing-form">
+           <div class="card">
+             <div class="card-body">
+                <img src="img/icons-dash/paypal.svg" class="paypal-img" alt="">
+                <form>
+                  <div class="input-group">
+                    <div class="upload-file form-group">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01"  aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">Upload QR Code</label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="from-group col-md-12">
+                      <input type="text"  class="form-control"  id="paypal-name"  placeholder="perfil">
+                    </div>
+                  </div>
+               </form>
+             </div>
+           </div>
         </form>
-    </div>
-        <div class="card" style="margin-bottom: 30px;">
-        
-
-          <div class="card-body">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">Brasão</th>
-                  <th scope="col">Time</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="time-texts">
-                    <img class="brasao" src="./img//club_icons/SP - SVG/São Paulo Futebol Clube.svg" alt="">
-                  </td>
-                  <td>
-                    <h2 class="time-texts">São Paulo</h2>
-                    
-                  </td>
-                 
-                  
-                  <td>
-                      <a href="">
-                        <i class="fas fa-trash time-link" style="color: red;"></i>
-                      </a>
-                      
-                  </td>
-                </tr>
-               
-              </tbody>
-          </table>
-        </div>
-        <div class="card-footer">
-          <button class="btn btn-success"> Adicionar Time</button>
-        </div>
-           
-        
-        
-        </div>
-    </div>
-
-         
-         
+      </div>
+      <!-- End Billing Details Form -->
 
       </div>
+
+      <!-- Main Content-->
+
+
       <!-- End of Main Content -->
 
       <!-- Footer -->
@@ -308,14 +278,45 @@
 
   </div>
   <!-- End of Page Wrapper -->
-
   
-
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
 
+  <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nome do Time</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Função</th>
+                <th scope="col">Nome</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Juiz</td>
+                <td>Otto</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap core JavaScript-->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -325,6 +326,19 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+
+<script src=https://code.jquery.com/jquery-3.5.1.js></script>
+<script src="/js/input.js"></script>
+  
+<script>
+  $(document).ready(function() {
+    $('#example').DataTable();
+  });
+
+  $(document).ready(function(){
+      $('#cpf').mask('000.000.000-00');
+  });
+</script>
 
 </body>
 

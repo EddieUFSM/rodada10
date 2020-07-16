@@ -11364,3 +11364,41 @@ bottom: .5em;
 .sorting{
   cursor: default;
 }
+
+.custom-file-label {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 16px
+}
+
+#conta {
+  
+  margin-top: 16px
+}
+
+.qrcod{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+.paypal-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mercado-pago-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
